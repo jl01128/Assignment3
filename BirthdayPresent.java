@@ -1,7 +1,8 @@
+//Jackie Lin 
+//COP4520 - CONCEPTS PARALLEL DISTRIBUTED
+// 04/20/2023
+
 import java.util.Collections;
-
-
-
 import java.util.List;
 import java.util.LinkedList;
 import java.util.Random;
@@ -26,7 +27,7 @@ class Present {
 
 }
 
-public class BirthdayParty {
+public class BirthdayPresent {
     //number of presents received from guests
     private static final int TOTAL_PRESENTS = 500000;
     //TOTAL number of servants
@@ -143,7 +144,7 @@ public class BirthdayParty {
         executor.awaitTermination(1, TimeUnit.HOURS);
         long end = System.currentTimeMillis();
 
-        System.out.println("Total presents processed: " + (TOTAL_PRESENTS - shuffledTags.size()));
+        System.out.println("Total presents checked: " + (TOTAL_PRESENTS - shuffledTags.size()));
         System.out.println("Total \"Thank you\" notes written: " + notesWritten.get());
         System.out.println("Total checked tags: " + tagsChecked.get());
         //Time taken to execute
