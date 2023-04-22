@@ -4,14 +4,11 @@ by Jackie Lin
 To run the code:
 
 javac BirthdayPresent.java
-
 java BirthdayPresent
 
+
 javac AtmosphericTemp.java
-
 java AtmosphericTemp
-
-```
 
 # 1. The Birthday Present Party
 
@@ -19,7 +16,7 @@ Initial Attempt Issues:
  ```
 * Threads were not able to successfuly run the problem in our desired time, which was due to poor implementation of thread pool
 
- *Set up problem that didn't follow the problem guidline, in terms of having no random instances. Which although produced a quick runtime, considering the threads prcoessed the functions in terms linear order.
+* Set up problem that didn't follow the problem guidline, in terms of having no random instances. Which although produced a quick runtime, considering the threads prcoessed the functions in terms linear order.
 
 ```
 
